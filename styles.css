@@ -1,0 +1,18 @@
+img {
+    width: 200px;
+}
+
+
+
+#contenedor #fr:checked ~ #elementos .nfr,
+#contenedor #fr:checked ~ #elementos .mfr {
+    display: none;
+}
+#contenedor #nfr:checked ~ #elementos .mfr,
+#contenedor #nfr:checked ~ #elementos .fr {
+    display: none;
+}
+#contenedor #mfr:checked ~ #elementos .nfr,
+#contenedor #mfr:checked ~ #elementos .fr {
+    display: none;
+}
